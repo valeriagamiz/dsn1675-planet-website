@@ -32,26 +32,41 @@ img {
    h1{
     text-align: center;
     font-size:3rem;
-    background: lightgray;
     margin-top: 0rem;
     }
 
     .nav{
-        background-color: lightgray;
-        margin-top: -2rem;
         color: #6074D9;
+        font-size: 1.2rem;
     }
-
+ header{
+     background-color: lightgray;
+     overflow: hidden;
+ }
 @media only screen and (min-width: 15em) {
 }
 
 @media only screen and (min-width:20em) {
     
  .nav li{
-     display: inline-block;
- }   
+     display: inline-block;  
+     margin-right: 1rem;
+}
+    .nav{
+        text-align: center;
+    }
 }
 
+@media only screen and (min-width:40em) {
+    
+    h1{ 
+        float: left;
+    }
+    .nav{
+    float: left;
+    }
+
+}
 
 
 
