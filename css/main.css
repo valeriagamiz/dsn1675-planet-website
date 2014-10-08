@@ -54,6 +54,7 @@ img {
 }
     .nav{
         text-align: center;
+        
     }
 }
 
@@ -74,6 +75,25 @@ img {
     text-align: center;
     font-size: 3rem;
 }
+
+a:link, a:visited, a:hover{
+    text-decoration: none; 
+    color: blue;
+}
+
+footer{ 
+    text-align: center;
+    background-color: #E0E0E0;
+    list-style-type: none;
+}
+.background-1{
+    background-color: #d9d9d9;
+}
+    
+.background-2{
+    background-color: #D0D0D0 ; 
+}
+
 
 
 
