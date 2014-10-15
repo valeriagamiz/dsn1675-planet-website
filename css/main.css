@@ -16,6 +16,24 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width 60) {
+    html {
+        font-size:  110%;
+    }
+    
+}
+
+@media only screen and (min-width 90) {
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width 120) {
+    html:{
+        font-size: 130%;
+    }
+}
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -43,31 +61,7 @@ img {
      background-color: lightgray;
      overflow: hidden;
  }
-@media only screen and (min-width: 15em) {
-}
 
-@media only screen and (min-width:20em) {
-    
- .nav li{
-     display: inline-block;  
-     margin-right: 1rem;
-}
-    .nav{
-        text-align: center;
-        
-    }
-}
-
-@media only screen and (min-width:40em) {
-    
-    h1{ 
-        float: left;
-    }
-    .nav{
-    float: left;
-    }
-
-}
 
 .headlineintro{
     width: 100%;
@@ -92,6 +86,73 @@ footer{
     
 .background-2{
     background-color: #D0D0D0 ; 
+}
+
+@media only screen and (min-width:25em) {
+    
+ .nav li{
+     display: inline-block;  
+     margin-right: 1rem;
+}
+    .nav{
+        text-align: center;
+        
+    }
+    
+    .nav-footer{
+        text-align: center;
+    }
+    
+    .copyright{ 
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:38em) {
+    
+    h1{ 
+        float: left;
+    }
+    .nav{
+    float: left;
+    }
+    .nav-footer{
+        float: right;
+    }
+    
+    .footer{
+        text-align: right;
+    }
+    
+    .copyright{ 
+        text-align: left;
+    }
+
+}
+
+
+@media only screen and ( min-width: 60em) {
+    
+      .nav-footer{
+        text-align: right;
+    }
+    
+    .copyright{ 
+        text-align: left;
+    }
+     .nav-footer{
+        float: right;
+    }
+    
+    dd{
+        float: left;
+        width: 50%;
+    }
+    dt{
+        float: left;
+        width: 50%;
+    }
+    
 }
 
 
