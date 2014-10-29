@@ -16,6 +16,7 @@ html {
   text-size-adjust: 100%;
 }
 
+
 @media only screen and (min-width 60) {
     html {
         font-size:  110%;
@@ -57,7 +58,8 @@ img {
         color: #6074D9;
         font-size: 1.2rem;
     }
- header{
+ 
+header{
      background-color: lightgray;
      overflow: hidden;
  }
@@ -70,9 +72,40 @@ img {
     font-size: 3rem;
 }
 
+h1{
+    padding-left: 1rem;
+}
+
+.moontitle{
+    padding-left: 1rem;
+}
+
 a:link, a:visited, a:hover{
     text-decoration: none; 
     color: blue;
+}
+
+a:focus{ 
+    outline: 6px solid black
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a{
+    position: absolute;
+    top: -3em;
+    background-color: red;
+    color: #fff;
+    padding: 0.5em 0.75em;
+    font-weight: bold;
+}
+
+.skip-links a:focus {
+    top:0;
 }
 
 footer{ 
