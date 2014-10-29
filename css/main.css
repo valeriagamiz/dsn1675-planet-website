@@ -42,6 +42,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+    font-family: sans-serif;
 }
 
 img {
@@ -120,6 +121,64 @@ footer{
 .background-2{
     background-color: #D0D0D0 ; 
 }
+
+label{
+    display: block;
+}
+
+input + label{
+    display: inline-flex;
+}
+
+.radio{
+    white-space: nowrap;
+}
+
+.wboxes{ 
+    border: 1px solid;
+    font-size: 1em;
+    font-family: sans-serif;
+    background-color: white;
+    padding: .2em;
+    width: 100%
+}
+.parrafo{
+    text-align: center;
+}
+
+textarea{
+    width: 100%;
+    height: 20em;
+}
+.ex-headline{
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #D0D0D0
+    
+}
+
+h8{
+    text-align: center;
+    padding: 4rem;
+}
+
+button{ 
+    font-size: 1em;
+    border: 1px solid grey;
+    font-family: Verdana;
+    background-color: white;
+    font-weight: 200; 
+    padding: 0.5 0.75em;
+}
+
+input + labe{
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+
+
 
 @media only screen and (min-width:25em) {
     
