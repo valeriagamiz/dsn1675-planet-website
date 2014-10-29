@@ -134,6 +134,10 @@ input + label{
     white-space: nowrap;
 }
 
+form{
+    max-width: 45em;
+    margin: 0 auto;
+}
 .wboxes{ 
     border: 1px solid;
     font-size: 1em;
