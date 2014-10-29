@@ -9,10 +9,18 @@
     <link href="css/typography.css" rel="stylesheet">
 </head>
 <body>
-    <header class="masthead">
+     <ul class="skip-links">
+        <li><a href="#navrole">Skip to navigation</a></li>
+        <li><a href="#main">Skip to main content</a></li>
+        <li><a href="#footer">Skip to footer</a></li>
+        </ul>
+    <header role="banner" id="top" class="masthead">
+        
         <div class="background">
-<h1 class="tera"> MARS </h1>
-    <nav>
+    
+    <h1 class="tera"> MARS </h1>
+            
+    <nav role= "navigation" id="navrole">
     <ul class="nav"> 
         <li class="peta"><a href="index.html">Planets</a></li>
         <li class="peta"><a href="moons.html">Moons</a></li>
@@ -26,8 +34,11 @@
     <div class="headlineintro">
         <p> Exploration</p> 
         </div>
+        
+    <aside role="complementary">
+    </aside>
     
-    <footer>
+    <footer role="contentinfo" id="footer" class="island 1-2">
         <div class="grid">
          <p class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2"> © 2014 Mars planetary Consortium </p>
         <nav class= "unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
